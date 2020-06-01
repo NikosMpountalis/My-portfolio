@@ -3390,6 +3390,7 @@ a.logo:hover{
     width: 100%;
     display: block;
     overflow: hidden;
+    height: 100%;
 }
 .work-intro{
     width: 100%;
