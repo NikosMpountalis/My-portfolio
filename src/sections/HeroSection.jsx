@@ -11,11 +11,11 @@ export default function HeroSection() {
         muted
         loop
         playsInline
-        poster="/assets/video/Video.jpg"
+        poster={`${import.meta.env.BASE_URL}assets/video/Video.jpg`}
       >
-        <source src="/assets/video/video.webm" type="video/webm" />
-        <source src="/assets/video/video.mp4" type="video/mp4" />
-        <source src="/assets/video/video.ogg" type="video/ogg" />
+        <source src={`${import.meta.env.BASE_URL}assets/video/video.webm`} type="video/webm" />
+        <source src={`${import.meta.env.BASE_URL}assets/video/video.mp4`} type="video/mp4" />
+        <source src={`${import.meta.env.BASE_URL}assets/video/video.ogg`} type="video/ogg" />
       </video>
 
       <div className="hero__overlay" />
@@ -46,4 +46,3 @@ export default function HeroSection() {
     </div>
   );
 }
-

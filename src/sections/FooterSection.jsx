@@ -18,7 +18,7 @@ export default function FooterSection() {
               aria-label="Back to top"
             >
               <img
-                src="/assets/images/logo/logo_transparent.png"
+                src={`${import.meta.env.BASE_URL}assets/images/logo/logo_transparent.png`}
                 alt="NIBO logo"
                 className="footer__logo"
                 loading="lazy"

@@ -1,10 +1,12 @@
+const baseUrl = import.meta.env.BASE_URL;
+
 export const projects = [
   {
     id: 'shopify-store-theme',
     title: 'Shopify Store theme',
     type: 'image',
     href: 'https://2307specimen.com/',
-    imageSrc: '/assets/images/projects/spec.png',
+    imageSrc: `${baseUrl}assets/images/projects/spec.png`,
     description: 'A Shopify Store theme.',
   },
   {
@@ -12,7 +14,7 @@ export const projects = [
     title: 'Nibo - MediPal',
     type: 'image',
     href: 'https://nibo-medipal.herokuapp.com/',
-    imageSrc: '/assets/images/projects/medipal.png',
+    imageSrc: `${baseUrl}assets/images/projects/medipal.png`,
     description: 'A web-app for doctors to create and monitor patients.',
   },
   {
@@ -20,7 +22,7 @@ export const projects = [
     title: 'Nibo - E-commerse web-app',
     type: 'image',
     href: 'https://e-shopnibo.herokuapp.com/',
-    imageSrc: '/assets/images/projects/eShopNibo.png',
+    imageSrc: `${baseUrl}assets/images/projects/eShopNibo.png`,
     description: 'An e-commerce web-app.',
   },
   {
@@ -28,7 +30,7 @@ export const projects = [
     title: 'Random Quote Generator',
     type: 'image',
     href: 'https://codepen.io/nikosmpountalis/pen/oNjeYyP',
-    imageSrc: '/assets/images/projects/randomquotemachine.png',
+    imageSrc: `${baseUrl}assets/images/projects/randomquotemachine.png`,
     description: 'A random quote generator.',
   },
   {
@@ -36,7 +38,7 @@ export const projects = [
     title: 'A Drum Machine',
     type: 'image',
     href: 'https://codepen.io/nikosmpountalis/pen/NWGwGWW',
-    imageSrc: '/assets/images/projects/drummachine.png',
+    imageSrc: `${baseUrl}assets/images/projects/drummachine.png`,
     description: 'A drum machine built on CodePen.',
   },
   {
@@ -44,7 +46,7 @@ export const projects = [
     title: 'My React Calculator',
     type: 'image',
     href: 'https://codepen.io/nikosmpountalis/pen/bGVaOZr',
-    imageSrc: '/assets/images/projects/calc.png',
+    imageSrc: `${baseUrl}assets/images/projects/calc.png`,
     description: 'A calculator built with React.',
   },
   {
@@ -52,7 +54,7 @@ export const projects = [
     title: 'A Pomodoro Clock',
     type: 'image',
     href: 'https://codepen.io/nikosmpountalis/embed/mdeXqYv?height=265&theme-id=dark&default-tab=js,result',
-    imageSrc: '/assets/images/projects/pomodoro.png',
+    imageSrc: `${baseUrl}assets/images/projects/pomodoro.png`,
     description: 'A pomodoro clock made with React.',
   },
   {
@@ -60,7 +62,7 @@ export const projects = [
     title: 'MarkedDown Previewer',
     type: 'image',
     href: 'https://codepen.io/nikosmpountalis/pen/jObGJmV',
-    imageSrc: '/assets/images/projects/markeddownpreviewer.png',
+    imageSrc: `${baseUrl}assets/images/projects/markeddownpreviewer.png`,
     description: 'A markdown previewer.',
   },
   {
@@ -68,7 +70,7 @@ export const projects = [
     title: 'Bar Chart',
     type: 'image',
     href: 'https://codepen.io/nikosmpountalis/pen/XWmxmpE',
-    imageSrc: '/assets/images/projects/barChart.png',
+    imageSrc: `${baseUrl}assets/images/projects/barChart.png`,
     description: 'A D3 bar chart.',
   },
   {
@@ -76,7 +78,7 @@ export const projects = [
     title: 'Scatter Plot',
     type: 'image',
     href: 'https://codepen.io/nikosmpountalis/pen/qBOQKrq',
-    imageSrc: '/assets/images/projects/ScatterPlot.png',
+    imageSrc: `${baseUrl}assets/images/projects/ScatterPlot.png`,
     description: 'A D3 scatter plot.',
   },
   {
@@ -84,7 +86,7 @@ export const projects = [
     title: 'Heat Map',
     type: 'image',
     href: 'https://codepen.io/nikosmpountalis/pen/MWaZdKz',
-    imageSrc: '/assets/images/projects/heatMap.png',
+    imageSrc: `${baseUrl}assets/images/projects/heatMap.png`,
     description: 'A D3 heat map.',
   },
   {
@@ -92,7 +94,7 @@ export const projects = [
     title: 'Choropleth Map',
     type: 'image',
     href: 'https://codepen.io/nikosmpountalis/pen/MWaxavY',
-    imageSrc: '/assets/images/projects/chroropleth.png',
+    imageSrc: `${baseUrl}assets/images/projects/chroropleth.png`,
     description: 'A D3 choropleth map.',
   },
   {
@@ -100,7 +102,7 @@ export const projects = [
     title: 'Tree Map',
     type: 'image',
     href: 'https://codepen.io/nikosmpountalis/pen/zYvbXJR',
-    imageSrc: '/assets/images/projects/treemap.png',
+    imageSrc: `${baseUrl}assets/images/projects/treemap.png`,
     description: 'A D3 tree map.',
   },
 ];
