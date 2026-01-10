@@ -11,7 +11,7 @@ export default function AboutSection() {
         <div className="col-12 md:col-6 lg:col-3">
           <Card title="Profile">
             <img
-              src="/assets/images/team/profile.jpg"
+              src={`${import.meta.env.BASE_URL}assets/images/team/profile.jpg`}
               alt="Nick Bountalis"
               className="w-full border-round"
             />
