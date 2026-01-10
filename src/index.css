@@ -1,0 +1,271 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  color: var(--text-color);
+  background: var(--surface-ground);
+}
+
+:root {
+  --app-section-padding-y: 4rem;
+  --app-section-padding-x: 1.25rem;
+}
+
+.app-section {
+  padding: var(--app-section-padding-y) var(--app-section-padding-x);
+}
+
+.app-container {
+  max-width: 1600px;
+  margin: 0 auto;
+}
+
+.app-section-title {
+  margin: 0 0 0.75rem;
+}
+
+.app-section-subtitle {
+  margin: 0 0 2rem;
+  opacity: 0.85;
+}
+
+.app-navbar {
+  position: sticky;
+  top: 0;
+  z-index: 1100;
+}
+
+.app-navbar .p-menubar {
+  border-radius: 0;
+}
+
+.app-navbar .p-menubar-root-list {
+  margin-left: auto;
+}
+
+.app-navbar .p-menubar-button {
+  margin-left: auto;
+}
+
+.brand-button {
+  background: transparent;
+  border: 0;
+  padding: 0;
+  cursor: pointer;
+  font-weight: 700;
+  letter-spacing: 0.18em;
+}
+
+.linkedin-button.p-button {
+  background: #4f46e5 !important;
+  color: #ffffff !important;
+  border-color: #4f46e5 !important;
+}
+
+.hero {
+  position: relative;
+  min-height: 100vh;
+  overflow: hidden;
+  color: white;
+}
+
+.hero__video {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.hero__overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.55);
+}
+
+.hero__content {
+  position: relative;
+  z-index: 1;
+  min-height: 100vh;
+  padding: 3rem 1.25rem;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.hero__scroll-down {
+  position: absolute;
+  left: 50%;
+  bottom: 1.25rem;
+  transform: translateX(-50%);
+  background: transparent;
+  border: 0;
+  color: white;
+  cursor: pointer;
+  z-index: 2;
+  opacity: 0.9;
+}
+
+.hero__scroll-down:hover {
+  opacity: 1;
+}
+
+.responsive-iframe {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  background: #000;
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.responsive-iframe iframe {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+.portfolio-image {
+  display: block;
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+}
+
+.why-choose-me-grid > [class*='col-'] {
+  display: flex;
+}
+
+.why-choose-me-grid > [class*='col-'] > .p-card {
+  flex: 1;
+  width: 100%;
+}
+
+.about-cards-grid > [class*='col-'] {
+  display: flex;
+}
+
+.about-cards-grid > [class*='col-'] > .p-card {
+  flex: 1;
+  width: 100%;
+}
+
+.experience-list {
+  margin-top: 0.5rem;
+}
+
+.experience-item {
+  display: flex;
+  gap: 0.75rem;
+  padding: 0.75rem 0;
+  border-top: 1px solid var(--surface-border);
+}
+
+.experience-item:first-child {
+  padding-top: 0;
+  border-top: 0;
+}
+
+.experience-logo {
+  width: 44px;
+  height: 44px;
+  border-radius: 10px;
+  flex: 0 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  background: var(--surface-100);
+}
+
+.experience-content {
+  min-width: 0;
+}
+
+.experience-role {
+  font-weight: 600;
+  line-height: 1.25;
+}
+
+.experience-subrole {
+  margin-top: 0.6rem;
+  font-weight: 600;
+  line-height: 1.25;
+}
+
+.experience-company {
+  opacity: 0.9;
+  line-height: 1.25;
+}
+
+.experience-type {
+  opacity: 0.85;
+  font-weight: 400;
+}
+
+.experience-meta {
+  opacity: 0.75;
+  font-size: 0.95rem;
+  line-height: 1.35;
+}
+
+.experience-tags {
+  margin-top: 0.25rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.25rem 0.5rem;
+}
+
+.experience-tag {
+  opacity: 0.8;
+  font-size: 0.9rem;
+}
+
+.cta-banner {
+  position: relative;
+  background-image: url('/assets/images/full-width-images/section-bg-image.jpg');
+  background-size: cover;
+  background-position: center;
+  color: white;
+}
+
+.cta-banner__overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.65);
+}
+
+.cta-banner__content {
+  position: relative;
+  z-index: 1;
+}
+
+.cta-banner__inner {
+  max-width: 700px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.footer {
+  padding: 3rem 1.25rem;
+  background: var(--surface-0);
+  border-top: 1px solid var(--surface-border);
+}
+
+.footer__logo {
+  width: 160px;
+  height: auto;
+}
+
+.app-quote {
+  padding: 1.25rem;
+  border-left: 4px solid var(--surface-border);
+  background: var(--surface-50);
+  border-radius: 10px;
+  font-style: italic;
+  line-height: 1.5;
+}
