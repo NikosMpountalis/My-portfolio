@@ -55,6 +55,6 @@ Deploy the contents of `dist/` to any static host.
 
 Examples:
 
-- GitHub Pages: build and publish `dist/`
+- GitHub Pages (recommended): set **Settings → Pages → Source** to **GitHub Actions** and use `.github/workflows/deploy.yml` (it builds and publishes `dist/`).
+  - If you deploy from a branch root, GitHub Pages will serve `index.html` directly (which references `src/main.jsx`) and you’ll get a blank page + a MIME type error in the console.
 - Netlify/Vercel: build command `npm run build`, output directory `dist`
-
