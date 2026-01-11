@@ -159,6 +159,7 @@ export default function AboutSection() {
               <li>Lerna</li>
               <li>Webpack</li>
               <li>Jest and RTL</li>
+              <li>AI tools</li>
             </ul>
           </Card>
         </div>
