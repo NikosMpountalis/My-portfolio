@@ -227,7 +227,7 @@ body {
 
 .cta-banner {
   position: relative;
-  background-image: url('/My-portfolio/assets/images/full-width-images/section-bg-image.jpg');
+  background-image: var(--cta-banner-bg-image, none);
   background-size: cover;
   background-position: center;
   color: white;

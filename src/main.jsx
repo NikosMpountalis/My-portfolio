@@ -9,9 +9,14 @@ import 'primeflex/primeflex.css';
 import App from './App.jsx';
 import './index.css';
 
+const baseUrl = import.meta.env.BASE_URL ?? '/';
+document.documentElement.style.setProperty(
+  '--cta-banner-bg-image',
+  `url(${baseUrl}assets/images/full-width-images/section-bg-image.jpg)`
+);
+
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <App />
   </React.StrictMode>
 );
-
